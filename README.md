@@ -40,7 +40,3 @@ python -m streamlit run regression_app.py
 - `regression_app.py`: 主要的 Streamlit 應用程式程式碼。
 - `chatlog.md`: 本專案的開發過程對話紀錄。
 - `README.md`: 專案介紹與安裝指南。
-
-## 預覽圖片 (Preview)
-![Linear Regression Preview](https://github.com/user-attachments/assets/your-screenshot-here.png)
-*(請自行在 GitHub 上傳圖片後替換連結)*
