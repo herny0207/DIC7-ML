@@ -1,7 +1,7 @@
 # Linear Regression Interactive Workspace
 
 這是一個基於 Streamlit 開發的互動式線性回歸教學工具。使用者可以動態調整線性回歸的參數，並即時觀察資料分布與回歸線的變化。
-
+live demo : https://dic7-ml-njaaadg99bgxvgtppgck56.streamlit.app/
 ## 功能特點 (Features)
 - **即時參數調整**: 透過滑桿調整斜率 ($m$) 與截距 ($b$)。
 - **動態隨機資料**: 可調整隨機噪音 (Noise) 的大小，觀察資料點的離散程度。
