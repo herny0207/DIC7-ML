@@ -26,9 +26,16 @@
 - **更新項目**:
   - 將 Matplotlib 圖表中的 Title, X-axis label, Y-axis label 以及 Legend 全部改為英文。
 
+### 4. 部署支援與 Live Demo 指南
+- **需求**: 使用者詢問如何在 Streamlit 上建立 Live Demo，且部署後遇到 `ModuleNotFoundError`。
+- **更新項目**:
+  - 在 `README.md` 中新增 Streamlit Community Cloud 部署步驟。
+  - **建立 `requirements.txt`**: 包含 `streamlit`, `numpy`, `matplotlib` 套件清單，解決雲端部署時的環境依賴問題。
+  - 將所有檔案（包含新建立的 `requirements.txt`）push 至 GitHub 儲存庫。
+
 ---
 
 ## 目前狀態
 - **檔案路徑**: `c:\Users\user\Desktop\新增資料夾\regression_app.py`
 - **執行指令**: `python -m streamlit run regression_app.py`
-- **預覽網址**: `http://localhost:8506` (正在執行中)
+- **預覽網址**: `http://localhost:8506` (本地) / [GitHub Repo](https://github.com/herny0207/DIC7-ML)
