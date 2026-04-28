@@ -28,6 +28,14 @@ python -m streamlit run regression_app.py
 
 執行後，瀏覽器會自動開啟網頁界面（預設為 http://localhost:8501 ）。
 
+## 部署說明 (Deployment - Live Demo)
+
+本專案可以直接部署於 **Streamlit Community Cloud**:
+1. 登入 [Streamlit Cloud](https://share.streamlit.io/)。
+2. 連結 GitHub 並選擇本儲存庫 (`DIC7-ML`)。
+3. 設定 Main file path 為 `regression_app.py`。
+4. 點擊 Deploy 即可完成部署。
+
 ## 檔案說明 (File Structure)
 - `regression_app.py`: 主要的 Streamlit 應用程式程式碼。
 - `chatlog.md`: 本專案的開發過程對話紀錄。
